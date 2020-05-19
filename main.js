@@ -49,7 +49,4 @@ toggle = (i) =>{
     updateList()
 }
 
-check = (i) =>{
-    
-}
 
