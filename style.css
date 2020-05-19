@@ -1,0 +1,22 @@
+.addButton{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    background-color: rgb(73, 113, 223);
+}
+body{
+    background-image: url('https://eskipaper.com/images/nice-backgrounds-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.font{
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    color: rgba(161, 56, 56, 0.835);
+}
