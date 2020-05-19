@@ -18,7 +18,7 @@ let addItem = () =>{
 let updateList = () =>{
     let html ="";
     for(i = 0; i< masterTodoList.length; i++){
-        html += `<li> <input type="checkbox" onlick="check(${i})>${masterTodoList[i].text} 
+        html += `<li> <input type="checkbox" onlick="check(${i})">${masterTodoList[i].text} 
         ${masterTodoList[i].isDone} <button href='#' onclick='remove(${i})'>Del</button> <a href='#' id="done" onclick='toggle(${i})'>Mark done</a> </li>\n`;
     }
     document.getElementById('resultArea').innerHTML = html
